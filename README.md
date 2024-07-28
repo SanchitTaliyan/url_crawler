@@ -113,7 +113,3 @@ Feel free to submit issues or pull requests if you have any improvements or bug 
 ### License
 
 This project is licensed under the MIT License.
-
----
-
-You can copy and paste this into your README file on GitHub.
