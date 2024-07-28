@@ -1,0 +1,2 @@
+class CrawledPage < ApplicationRecord
+end
