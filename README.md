@@ -1,5 +1,6 @@
-# README
+#ReadMe
 
+---
 
 # URL Crawler
 
@@ -7,10 +8,10 @@ URL Crawler is a Ruby on Rails application designed to fetch and parse content f
 
 ## Features
 
-- Fetch metadata from multiple URLs.
+- Fetch metadata from single or multiple URLs.
 - Extract information such as title, description, keywords, author, viewport, and robots.
 - Basic content classification using word frequency.
-- API endpoint to accept multiple URLs in a single request.
+- API endpoints to accept a single URL or multiple URLs in a request.
 
 ## Setup
 
@@ -86,7 +87,7 @@ To test the API, you can use `curl` or any API client like Postman. Below are th
 1. **Single URL**
 
    ```bash
-   curl -X POST http://localhost:3000/api/v1/crawl_pages -H "Content-Type: application/json" -d '{
+   curl -X POST http://localhost:3000/api/v1/crawl_page -H "Content-Type: application/json" -d '{
      "url": "http://www.amazon.com/Cuisinart-CPT-122-Compact-2-Slice-Toaster/dp/B009GQ034C/ref=sr_1_1?s=kitchen&ie=UTF8&qid=1431620315&sr=1-1&keywords=toaster"
    }'
    ```
@@ -115,4 +116,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This README provides a comprehensive overview of the URL Crawler application, including setup, running, and testing instructions. This should help users and contributors get started with your project easily.
+You can copy and paste this into your README file on GitHub.
